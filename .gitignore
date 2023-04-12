@@ -1,0 +1,20 @@
+#! /bin/bash
+
+#author：zhengxiangkuan
+#makeblastdb -dbtype prot -in sequences -parse_seqids -out sequences
+blastp -db ./Phage_Dpo_database/sequences -query $1 -outfmt 6 -evalue 1e-50 -out $1.txt
+cut -d"	" -f 1 $1.txt > ./Phage_Dpo_database/name.txt
+
+
+for i in `cat ./Phage_Dpo_database/name.txt`
+do
+	sed -n "/$i/p" $1 >> results_temp.txt
+	sed -n "/$i/p" $1.txt >> results_temp.txt
+	sed -i "s/$i//g" ./Phage_Dpo_database/name.txt
+done
+
+sort -r results_temp.txt | uniq -c >$1_results.txt
+cat $1_results.txt
+rm -rf $1.txt
+rm -rf ./Phage_Dpo_database/name.txt
+rm -rf results_temp.txt
