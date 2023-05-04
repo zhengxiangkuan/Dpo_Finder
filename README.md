@@ -16,7 +16,7 @@ The -i parameter is entered as an amino acid sequence file in fasta format, endi
 python Dpo_Finder.py -i example.faa -d sequences -o example.csv
 
 # Usage
-usage: python Dpo_Finder.py [-h] -i INPUT -d DATABASE -o OUTPUT
+`usage: python Dpo_Finder.py [-h] -i INPUT -d DATABASE -o OUTPUT
 
 Perform BLASTP search with custom database
 
@@ -31,5 +31,5 @@ optional arguments:
                         Name of the BLASTP database to be searched
                         
   -o OUTPUT, --output OUTPUT
-                        Output file for BLASTP best match results in TSV format
+                        Output file for BLASTP best match results in TSV format`
                         
