@@ -17,19 +17,19 @@ python Dpo_Finder.py -i example.faa -d sequences -o example.csv
 
 # Usage
     usage: python Dpo_Finder.py [-h] -i INPUT -d DATABASE -o OUTPUT
-
-Perform BLASTP search with custom database
-
-optional arguments:
-
-  -h, --help            show this help message and exit
-  
-  -i INPUT, --input INPUT
-                        Input query sequence file in FASTA format
-                        
-  -d DATABASE, --database DATABASE
-                        Name of the BLASTP database to be searched
-                        
-  -o OUTPUT, --output OUTPUT
-                        Output file for BLASTP best match results in TSV format
+        
+        Perform BLASTP search with custom database
+        
+        optional arguments:
+        
+          -h, --help            show this help message and exit
+          
+          -i INPUT, --input INPUT
+                                Input query sequence file in FASTA format
+                                
+          -d DATABASE, --database DATABASE
+                                Name of the BLASTP database to be searched
+                                
+          -o OUTPUT, --output OUTPUT
+                                Output file for BLASTP best match results in TSV format
                         
