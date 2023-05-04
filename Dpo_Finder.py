@@ -25,7 +25,7 @@ if __name__ == '__main__':
     # 解析命令行参数
     args = parser.parse_args()
 
-    if args.display_help:
+    if hasattr(args, 'help') and args.help:
         parser.print_help()
     else:
         # 读取查询序列并运行blastp
