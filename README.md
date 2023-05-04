@@ -6,6 +6,7 @@ This script is used to find depolymerase sequences in the phage genome. This scr
 
 # Required Packages
 · ncbi-blast+
+
 · biopython
 
 # Input File
