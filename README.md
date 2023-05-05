@@ -23,7 +23,7 @@ The -i parameter is entered as an amino acid sequence file in fasta format, endi
 
 # Usage
 ## Ubuntu/Windows
-On Windows, the script requires the addition of # -*- coding: utf-8 -*-, example:
+On Windows, the script requires the addition of # -\*- coding: utf-8 -\*-, example:
 
         #!/usr/bin/env python
         
