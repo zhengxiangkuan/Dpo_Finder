@@ -14,6 +14,7 @@ The -i parameter is entered as an amino acid sequence file in fasta format, endi
 
 # quick start
         python Dpo_Finder.py -i example.faa -d sequences -o example.csv
+        ls *.fa | while read id ; do python Dpo_Finder.py -i $id -d sequences -o $id.csv ; done
 
 # Usage
     usage: python Dpo_Finder.py [-h] -i INPUT -d DATABASE -o OUTPUT
