@@ -13,7 +13,7 @@ This script is used to find depolymerase sequences in the phage genome. This scr
 The -i parameter is entered as an amino acid sequence file in fasta format, ending in fa, faa and fasta.
 
 # Library building
-                makeblastdb -in sequences -dbtype prot -out sequences
+    makeblastdb -in sequences -dbtype prot -out sequences
 
 # quick start
 ## Single file
