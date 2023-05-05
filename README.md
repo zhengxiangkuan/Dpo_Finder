@@ -33,3 +33,5 @@ The -i parameter is entered as an amino acid sequence file in fasta format, endi
           -o OUTPUT, --output OUTPUT
                                 Output file for BLASTP best match results in TSV format
                         
+# Output example
+<img width="539" alt="output" src="https://user-images.githubusercontent.com/77312378/236362974-f8de7415-5c37-4697-bcf1-d3277a78960c.png">
