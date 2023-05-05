@@ -13,7 +13,9 @@ This script is used to find depolymerase sequences in the phage genome. This scr
 The -i parameter is entered as an amino acid sequence file in fasta format, ending in fa, faa and fasta.
 
 # quick start
+## Single file
         python Dpo_Finder.py -i example.faa -d sequences -o example.csv
+## Multiple files
         ls *.fa | while read id ; do python Dpo_Finder.py -i $id -d sequences -o $id.csv ; done
 
 # Usage
