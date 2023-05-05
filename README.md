@@ -24,8 +24,11 @@ The -i parameter is entered as an amino acid sequence file in fasta format, endi
 # Usage
 ## Ubuntu/Windows
 On Windows, the script requires the addition of # -*- coding: utf-8 -*-, example:
+
         #!/usr/bin/env python
+        
         # -*- coding: utf-8 -*-
+        
     usage: python Dpo_Finder.py [-h] -i INPUT -d DATABASE -o OUTPUT
         
         Perform BLASTP search with custom database
