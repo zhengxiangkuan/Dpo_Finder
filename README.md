@@ -29,7 +29,7 @@ On Windows, the script requires the addition of # -*- coding: utf-8 -*-, example
         
         # -*- coding: utf-8 -*-
 
-
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
     usage: python Dpo_Finder.py [-h] -i INPUT -d DATABASE -o OUTPUT
         
         Perform BLASTP search with custom database
